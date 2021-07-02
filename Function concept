@@ -1,0 +1,116 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM0AkWM1GecyEtp4pp5x25R",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RA-BIT/Cab-fare-prediction/blob/main/Function%20concept\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qNbNIuAK0nBK"
+      },
+      "source": [
+        "  def add(artist):\n",
+        "    output = artist + \"Kunal Kumar\"\n",
+        "    return output"
+      ],
+      "execution_count": 16,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4UZDJFNY4mld",
+        "outputId": "2cdd0615-b959-4fcd-b072-13a0d47c4a23"
+      },
+      "source": [
+        "var2 = add(\"singer\")\n",
+        "print(var2)"
+      ],
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "singerKunal Kumar\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K4btUJ7T41G4",
+        "outputId": "044cc94b-af2f-477f-cbf1-f23b987673b9"
+      },
+      "source": [
+        "var3 = add(\"Dancer\")\n",
+        "print(var3)"
+      ],
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "DancerKunal Kumar\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VbKRceM03yAv",
+        "outputId": "4616f94e-9858-402c-895a-cc69fd1ba10d"
+      },
+      "source": [
+        "var = \"Kunal kumar\"\n",
+        "print(var)"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Kunal kumar\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
